@@ -472,6 +472,20 @@ footer a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+@media (max-width: 768px) {
+  .about-details {
+    grid-template-columns: 1fr; /* Stack columns on mobile */
+    padding: 1rem;
+  }
+
+  .info-box {
+    padding: 1.5rem;
+  }
+
+  .content-section {
+    padding: 2rem 1rem; /* Reduce side padding for small screens */
+  }
 }
+
 }
 
